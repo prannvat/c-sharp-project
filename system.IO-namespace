@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace system.IO_namespace
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+//          {
+            //File , FileInfo:
+            //Provide methods of creating, copying, deleting, moving and opening of files. 
+
+            //FileInfo:
+            //Provides INSTANCE methods
+
+            //File:
+            //Provides STATIC methods
+
+            //Static methods:
+            //More convenient if you have small number of operatings eg. getting attributes about a file.
+            //However, everytime a static method is called, some security cyhecking is done by the operating system to make sure that the current user has access to the file.
+            //Hence if you are going to have a large number of operations, it will effect the performance of you rapplications.
+
+            //Instance methods:
+            //This is hence better if you have a large number of operations because security checking is only done once during the creation of the FileInfo object.
+
+            //List of useful methods for File,FileInfo:
+            //Create()
+            //Copy()
+            //Delete()
+            //Exists()
+            //GetAttributes()
+            //Move()
+            //ReadAllText()
+            //All of the above are pretty self explanatory.
+//          }
+
+
+
+//          {
+            //Directory, DirectoryInfo:
+            //Very similar to File,FileInfo but to work with directories.
+            
+            //DirectoryInfo:
+            //Provides INSTANCE methods.
+
+            //Directory:
+            //Provides STATIC methods.
+
+            //List of useful methods for Directory,DirectoryInfo:
+            //CreateDirectory()
+            //Delete()
+            //Exists()
+            //GetCurrentDirectory()
+            //GetFiles() 
+            //Move()
+            //GetLogicalDrives() - Returns lligical drives of hard disk.
+//          }
+
+
+//          {
+            //Path:
+            //Provide methods to work with a string that contains a file or directory path information.
+
+            //List of useful methods for Path class:
+            //GetDirectoryName()
+            //GetFileName()
+            //GetExtension() 
+            //GetTempPath()
+
+
+
+
+//          }
+
+        }
+    }
+}
